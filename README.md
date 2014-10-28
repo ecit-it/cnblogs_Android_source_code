@@ -56,5 +56,5 @@ http://weibo.com/lhd20111102
 http://blog.sina.com.cn/ulihd
 
 
-    东大实训QQ交流群：
+    东理ITQQ交流群：
                              37604517

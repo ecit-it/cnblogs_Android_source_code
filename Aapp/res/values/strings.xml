@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">A应用</string>
+      <string name="button">往内容提供者添加数据</string>
+</resources>

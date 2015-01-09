@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">音乐播放器</string>
+    <string name="filename">音乐文件名称</string>
+    <string name="playbutton">播放</string>
+    <string name="pausebutton">暂停</string>
+    <string name="resetbutton">重播</string>
+    <string name="stopbutton">停止</string>
+    <string name="filenoexist">文件没有发现</string>
+    <string name="continues">继续</string>
+</resources>

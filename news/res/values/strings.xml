@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">视频资讯</string>
+    <string name="timelength">时长：</string>
+    <string name="min">分钟</string>
+</resources>

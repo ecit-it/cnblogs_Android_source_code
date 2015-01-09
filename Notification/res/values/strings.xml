@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">发送通知</string>
+    <string name="shorttitle">概要</string>
+    <string name="title">标题</string>
+    <string name="content">内容</string>
+    <string name="button">发送</string>
+</resources>

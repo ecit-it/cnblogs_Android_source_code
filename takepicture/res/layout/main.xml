@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<SurfaceView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" 
+	    android:id="@+id/surfaceView"
+	    />
+    
+    <RelativeLayout
+   		android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" 
+	    android:visibility="gone"
+	    android:id="@+id/buttonlayout"
+    >
+    	<Button
+    	android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentBottom="true"
+	    android:layout_marginRight="5dp"
+	    android:text="@string/takepicture"
+	    android:onClick="takepicture"
+	    android:id="@+id/takepicture"
+    	/>
+    	<Button
+    	android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:layout_toLeftOf="@id/takepicture"
+	    android:layout_alignTop="@id/takepicture"
+	    android:layout_marginRight="20dp"
+	    android:text="@string/autofocus"
+	    android:onClick="takepicture"
+	    android:id="@+id/autofocus"
+    	/>    
+    </RelativeLayout>
+</FrameLayout>

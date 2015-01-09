@@ -1,0 +1,87 @@
+视频名称                                                      源码
+--------------------------------------------------------------------------------
+04_开发与运行(卸载)第一个ANDROID应用.avi               所在项目：Hello
+06_电话拔号器.avi                                      所在项目：phone  
+08_短信发送器.avi                                      所在项目：sms
+09_深入了解各种布局技术.avi                            所在项目：sms & FrameLayout
+10_对应用进行单元测试.avi                              所在项目：junitest
+11_查看与输出日志信息.avi                              所在项目：junitest
+12_文件的保存与读取.avi                                所在项目：File
+13_文件的操作模式.avi                                  所在项目：File & other
+14_把文件存放在SDCard.avi                              所在项目：File
+15_采用Pull解析器解析和生成XML内容.avi                 所在项目：xml
+16_采用SharedPreferences保存用户偏好设置参数.avi       所在项目：SharedPreferences
+17_创建数据库与完成数据添删改查.avi                    所在项目：db
+18_在SQLite中使用事务.avi                              所在项目：db
+19_采用ListView实现数据列表显示.avi                    所在项目：db
+20_采用ContentProvider对外共享数据.avi                 所在项目：db & other
+21_监听ContentProvider中数据的变化.avi                 所在项目：db & other & Aapp
+22_访问通信录中的联系人和添加联系人.avi                所在项目：contacts
+23_网络通信之网络图片查看器.avi                        所在项目：netimage & Web端应用：web
+24_网络通信之网页源码查看器.avi                        所在项目：HtmlViewer & Web端应用：web
+25_网络通信之视频资讯客户端.avi                        所在项目：news & Web端应用：web
+26_采用JSON格式返回数据给资讯客户端.avi                所在项目：news & Web端应用：web
+27_网络通信之通过GET和POST方式提交参数给web应用.avi    所在项目：newsmanage & Web端应用：web
+28_网络通信之通过HTTP协议实现文件上传.avi              所在项目：newsmanage & Web端应用：web
+29_发送xml数据和调用webservice.avi                     所在项目：mobileAddressQuery & Web端应用：web
+30_多线程下载原理.avi                                  所在项目：net
+31_多线程断点下载器.avi                                所在项目：MulThreadDownloader
+32_文件断点上传器.avi                                  所在项目：videoUpload & javaSE应用：socket
+33_为应用添加多个Activity与参数传递.avi                所在项目：MulActivity
+34_Activity的启动模式.avi                              所在项目：LaunchMode & openSingleInstance & singleInstance
+35_Intent深入解剖.avi                                  所在项目：Intent
+36_Activity生命周期.avi                                所在项目：ActivityLife
+37_采用广播接收者实现短信窃听器.avi                    所在项目：SMSListener & Web端应用：web
+38_采用广播接收者拦截外拔电话与其特性.avi              所在项目：SMSListener
+39_采用Service实现电话窃听器.avi                       所在项目：phonelistener
+40_建立能与访问者进行相互通信的本地服务.avi            所在项目：studentquery
+41_使用AIDL实现进程通信.avi                            所在项目：remoteService & remoteServiceClient
+42_服务的生命周期.avi
+43_音乐播放器.avi                                      所在项目：audioplayer
+44_在线视频播放器.avi                                  所在项目：videoplayer
+45_拍照.avi                                            所在项目：takepicture
+46_视频刻录.avi                                        所在项目：videoRecorder
+47_手势识别.avi                                        所在项目：gesture & GestureBuilder
+48_实现软件国际化.avi                                  所在项目：i18n
+49_屏幕适配.avi                                        所在项目：ScreenAdapter
+50_样式与主题.avi                                      所在项目：style
+51_编码实现软件界面.avi                                所在项目：codeUI
+52_发送状态栏通知.avi                                  所在项目：Notification
+53_采用网页设计软件界面.avi                            所在项目：htmlUI
+54_tween动画.avi                                       所在项目：tween 
+55_frame动画的实现.avi                      	       所在项目：frameAnimation
+56_activity切换动画与页面切换动画.avi                  所在项目：animation
+57_采用方向传感器实现指南针.avi                        所在项目：sensor
+
+58_拖拉功能与多点触摸.avi                              所在项目：DragScale
+59_各种图形的使用介绍.avi                              所在项目：drawable
+60_meta-data的使用.avi                                 所在项目：metadata
+61_Widget.avi                                          所在项目：Widgets
+62_自定义窗口标题.avi                                  所在项目：customtitle
+63_PopupWindow.avi                                     所在项目：PopupWindow
+64_ListView数据异步加载与AsyncTask.avi                 所在项目：DataAsyncLoad
+65_ListView数据的分批加载.avi                          所在项目：datapageload
+66_自定义标签页.avi                                    所在项目：tabhost
+67_TraceView性能测试与Android应用性能优化方案.avi      所在项目：tabhost
+
+Android核心基础加强内容(暂不对外公布)
+复杂UI界面设计、GPS与GoogleMap、自定义View、Ubuntu Linux下使用C语言面向底层开发、通过JNI进行底层组件调用、图形与OpenGl ES、界面特效、下载修改及编绎Android框架代码。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

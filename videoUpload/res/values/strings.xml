@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">视频上传</string>
+    <string name="filename">视频文件</string>
+    <string name="button">上传</string>
+    <string name="success">上传成功</string>
+    <string name="notexsit">文件不存在</string>
+    <string name="error">上传失败</string>
+    <string name="sdcarderror">SDCard不存在或者写保护</string>
+</resources>

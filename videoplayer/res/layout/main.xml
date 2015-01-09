@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/filename"
+    />
+    
+    <EditText
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/filename"
+    />
+    
+    <LinearLayout
+    android:orientation="horizontal"
+     android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    	<ImageButton
+    	 android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+    	 android:src="@drawable/play"
+    	 android:id="@+id/playbutton"
+    	 android:onClick="mediaplay"
+    	/>
+    	<ImageButton
+    	 android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+    	 android:src="@drawable/pause"
+    	 android:id="@+id/pausebutton"
+    	 android:onClick="mediaplay"
+    	/>
+    	<ImageButton
+    	 android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+    	 android:src="@drawable/reset"
+    	 android:id="@+id/resetbutton"
+    	 android:onClick="mediaplay"
+    	/>
+    	<ImageButton
+    	 android:layout_width="wrap_content"
+    	 android:layout_height="wrap_content"
+    	 android:src="@drawable/stop"
+    	 android:id="@+id/stopbutton"
+    	 android:onClick="mediaplay"
+    	/>    	    	    
+    </LinearLayout>
+    
+    <SurfaceView
+    	 android:layout_width="fill_parent"
+    	 android:layout_height="240dp"
+    	android:id="@+id/surfaceView"
+    	/>
+</LinearLayout>

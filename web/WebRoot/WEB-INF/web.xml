@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>web</display-name>
+	<filter>
+		<display-name>EncodingFilter</display-name>
+		<filter-name>EncodingFilter</filter-name>
+		<filter-class>cn.itcast.filter.EncodingFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>EncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<servlet>
+		<display-name>ListServlet</display-name>
+		<servlet-name>ListServlet</servlet-name>
+		<servlet-class>cn.itcast.servlet.ListServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>ManageServlet</display-name>
+		<servlet-name>ManageServlet</servlet-name>
+		<servlet-class>cn.itcast.servlet.ManageServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>XmlServlet</servlet-name>
+		<servlet-class>cn.itcast.servlet.XmlServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ReceiveSMSServlet</servlet-name>
+		<servlet-class>cn.itcast.servlet.ReceiveSMSServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListServlet</servlet-name>
+		<url-pattern>/ListServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ManageServlet</servlet-name>
+		<url-pattern>/ManageServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>XmlServlet</servlet-name>
+		<url-pattern>/XmlServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ReceiveSMSServlet</servlet-name>
+		<url-pattern>/ReceiveSMSServlet</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">拍照</string>
+    <string name="takepicture">拍照</string>
+    <string name="autofocus">对焦</string>
+</resources>

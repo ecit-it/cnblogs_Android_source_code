@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="textViewStyle">
+  	<item name="android:textSize">22sp</item>
+  	<item name="android:textColor">#FF0000</item>
+  </style>
+  
+  <style name="childStyle" parent="textViewStyle">
+  	<item name="android:layout_width">fill_parent</item>
+  	<item name="android:layout_height">wrap_content</item>
+  	<item name="android:textColor">#00FF00</item>
+  </style>
+  
+  <style name="childStyle.liming">
+  	<item name="android:textColor">#0000FF</item>
+  </style>
+  
+  
+  <style name="itcastTheme">
+  	<item name="android:windowNoTitle">true</item>
+  	<item name="android:windowFullscreen">?android:windowNoTitle</item>
+  	<item name="android:textSize">18sp</item>
+  	<item name="android:textColor">#FFFFFF</item>
+  </style>
+</resources>

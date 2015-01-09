@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <RelativeLayout 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+    >
+   		<TextView  
+	    android:layout_width="100dp" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/number"
+	    android:id="@+id/numberlabel"
+	    />
+	    
+	    <EditText
+	     android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/number"
+	    android:layout_toRightOf="@id/numberlabel"
+	    android:layout_alignTop="@id/numberlabel"
+	    android:layout_marginLeft="5dp"
+	    />
+    
+    </RelativeLayout>
+	
+    <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/content"
+    />
+    
+    <EditText
+     android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:minLines="3"
+    android:id="@+id/content"
+    />
+    
+    <Button
+     android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:text="@string/button"
+    android:id="@+id/button"
+    />
+</LinearLayout>

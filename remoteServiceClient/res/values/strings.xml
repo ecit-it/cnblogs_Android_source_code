@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">Studentquery</string>
+    <string name="studentnumber">学号</string>
+    <string name="button">查询</string>
+
+</resources>

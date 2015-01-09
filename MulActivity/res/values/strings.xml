@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">多Activity</string>
+    <string name="button">打开新Activity</string>
+    <string name="info">这是新的Activity</string>
+    <string name="title">新Activity</string>
+    <string name="closebutton">关闭Activity</string>
+</resources>

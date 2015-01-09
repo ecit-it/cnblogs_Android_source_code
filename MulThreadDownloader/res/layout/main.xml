@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/path"
+    />
+    
+    <EditText
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="http://192.168.1.100:8080/web/QQWubiSetup.exe"
+    android:id="@+id/path"
+    />
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    >
+	    <Button
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/button"
+	    android:id="@+id/downloadbutton"
+	    />
+	    
+	    <Button
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/stopbutton"
+	    android:enabled="false"
+	    android:id="@+id/stopbutton"
+	    />
+    
+    </LinearLayout>
+    
+    
+    
+    <ProgressBar
+     android:layout_width="fill_parent" 
+     android:layout_height="18dp" 
+     style="?android:attr/progressBarStyleHorizontal"
+     android:id="@+id/progressBar"
+    />
+    
+   <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center"
+    android:id="@+id/resultView"
+    />
+     
+</LinearLayout>

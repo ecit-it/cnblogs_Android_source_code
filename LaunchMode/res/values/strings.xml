@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">LaunchMode</string>
+    <string name="standard">激动standard模式Activity</string>
+    <string name="singletop">激动SingleTop模式Activity</string>
+    <string name="singletoptitle">SingleTop模式Activity</string>
+    <string name="singletasktitle">SingleTask模式Activity</string>
+    <string name="singletask">激动SingleTask模式Activity</string>
+    <string name="singleintance">激动SingleInstance模式Activity</string>
+
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">这是我的第一个程序哦，请大家来看看哦。谢谢大家的支持哦，谢谢了。</string>
+    <string name="hello2">谢谢大家的支持哦，谢谢了。</string>
+    <string name="app_name">这可是我的第一个程序哦</string>
+    <string name="itcast">传智播客</string>
+    <string name="xiangjie">xiangjie</string>
+</resources>

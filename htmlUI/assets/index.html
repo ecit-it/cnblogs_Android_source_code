@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function show(jsondata){//  [{name:"xxx",amount:600,phone:"13988888"},{name:"bb",amount:200,phone:"1398788"}]
+	        var jsonobjs = eval(jsondata);
+	        var table = document.getElementById("personTable");
+	        for(var y=0; y<jsonobjs.length; y++){
+		        var tr = table.insertRow(table.rows.length); //添加一行
+		        //添加三列
+		        var td1 = tr.insertCell(0);
+		        var td2 = tr.insertCell(1);
+		        td2.align = "center";
+		        var td3 = tr.insertCell(2);
+		        td3.align = "center";
+		        //设置列内容和属性
+		        td1.innerHTML = jsonobjs[y].name; 
+		        td2.innerHTML = jsonobjs[y].amount; 
+		        td3.innerHTML = "<a href='javascript:contact.call(\""+ jsonobjs[y].phone+ "\")'>"+ jsonobjs[y].phone+ "</a>"; 
+			}
+	}
+</script>
+
+</head>
+<!-- js代码通过webView调用其插件中的java代码 -->
+<body onload="javascript:contact.showcontacts()">
+   <table border="0" width="100%" id="personTable" cellspacing="0">
+		<tr>
+			<td width="35%">姓名</td><td width="30%" align="center">存款</td><td align="center">电话</td>
+		</tr>
+	</table>
+	<a href="javascript:window.location.reload()">刷新</a>
+</body>
+
+</html>
